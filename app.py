@@ -19,7 +19,7 @@ st.set_page_config(
 # ------------------------------------------------------------
 MODEL_PATH = "fraud_model.joblib"
 SCALER_PATH = "scaler.joblib"
-DATA_PATH = "data/creditcard_sample.csv"
+DATA_PATH = "creditcard_sample.csv"
 
 if not (os.path.exists(MODEL_PATH) and os.path.exists(SCALER_PATH)):
     st.error("Model files are missing. Please run: py train_model.py")
