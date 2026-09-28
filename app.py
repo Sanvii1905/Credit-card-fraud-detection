@@ -17,8 +17,8 @@ st.set_page_config(
 # ------------------------------------------------------------
 # Load model
 # ------------------------------------------------------------
-MODEL_PATH = "models/fraud_model.joblib"
-SCALER_PATH = "models/scaler.joblib"
+MODEL_PATH = "fraud_model.joblib"
+SCALER_PATH = "scaler.joblib"
 DATA_PATH = "data/creditcard_sample.csv"
 
 if not (os.path.exists(MODEL_PATH) and os.path.exists(SCALER_PATH)):
