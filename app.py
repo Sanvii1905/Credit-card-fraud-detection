@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 import streamlit as st
 
-from src.preprocessing import FEATURES
+from preprocessing import FEATURES
 
 # ------------------------------------------------------------
 # Page setup
